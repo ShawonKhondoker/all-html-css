@@ -1,0 +1,129 @@
+
+.home{
+    background-color: rgb(220, 233, 233);
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+li{
+    list-style: none;
+    margin-right: 35px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+li:hover{
+    background-color: rgb(219, 233, 228);
+}
+.display {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    padding: 0;
+}
+.display li{
+    padding: 0 20px;
+    margin: 0;
+}
+
+.block:hover>ul{
+    display: block;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    align-items: center;
+    
+}
+tr,th{
+border: 1px solid rgb(56, 56, 33);
+padding: 0 20px;
+background-color: aqua;
+}
+
+
+.overflow{
+    width: 500px;
+    height: 150px;
+    border: 3px solid;
+    padding: 10px 10px 20px 30px;
+    margin: 10px;
+
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+
+aside{
+    width:150px;
+    padding-left: 10px;
+    margin-left: 20px;
+    font-style: italic;
+    float: right;
+    background-color: azure;
+    border-radius: 10px;
+}
+h1{ color: rgb(8, 73, 73);
+    background-color: antiquewhite;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 10px 20px solid rgb(1, 1, 8);
+}
+nav{
+background-color: rgb(241, 248, 248);
+border-radius: 30px;
+}
+.pik{
+    display: flex;
+    margin: 20px 10px 20px;
+    width: 50px;
+    padding: 10px;
+}
+img{
+    margin-left: 100px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 5px 30px 2px black;
+    padding: 0px;
+}
+.video{
+    background-color: rgb(195, 214, 208);
+    border-radius: 15px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+audio{
+    margin-left: 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(209, 224, 219);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fa-youtube{
+    color: red;
+    font-size: 40px;
+    margin: 10px;
+}
+.fa-facebook{
+    color: blue;
+    font-size: 40px;
+    margin: 10px;
+}
+.fa-square-whatsapp{
+    font-size: 40px;
+    margin: 10px;
+}
